@@ -12,5 +12,21 @@ public class Student {
 	String name;
 	boolean isMale;
 	float stipend;
+	
+	Student(){
+		System.out.println("priyansh:-- abdul im about to construct the box");
+		id =0;
+		name = "ansari";
+		
+	}
+	
+	Student(int i, String nam){
+		id = i;
+		name = nam;
+	}
+	
+	void display(){
+		System.out.println("name is"+ name+" stipend is "+stipend);
+	}
 
 }
