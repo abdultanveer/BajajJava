@@ -12,6 +12,7 @@ public class Student {
 	String name;
 	boolean isMale;
 	float stipend;
+	static String COLLEGE_NAME = "IIT";
 	
 	Student(){
 		System.out.println("priyansh:-- abdul im about to construct the box");
@@ -27,6 +28,10 @@ public class Student {
 	
 	void display(){
 		System.out.println("name is"+ name+" stipend is "+stipend);
+	}
+	
+	static int calculateAggregate(int a, int b) {
+		return a+b/2;
 	}
 
 }
